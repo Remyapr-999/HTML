@@ -1,0 +1,211 @@
+body
+{
+background-color:white;
+top:0;
+left: 0;
+font-family: helvetica;
+}
+.mainbody
+{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  height: 35em;
+
+  top:0;
+  left: 0;
+  position: absolute;
+}
+.banner
+{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: auto;
+  background-image: url("Cover of apex.jpg");
+  background-repeat: no-repeat fixed;
+  background-size: cover;
+  height: 35em;
+
+  top:0;
+  left: 0;
+  position: absolute;
+  float: left;
+}
+h1{
+  color: #F05136;
+  font-size: 3em;
+  font-weight: 800;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.normalContent
+{
+  color: black;
+  font-size:22px;
+  margin-left: 10%;
+}
+.apeximg
+{
+  margin: 2%;
+}
+.row
+{
+  width: 93%;
+  float: left;
+  margin-top: 35%;
+  margin-left: 7%;
+}
+.project{
+  width: 47%;
+  height: 200px;
+
+  float: left;
+  padding: 3%;
+}
+.projbox
+{
+  border: 1px solid #e0e0d1;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.announce{
+  width: 25%;
+  height: 200px;
+
+  float: left;
+  padding: 3%;
+}
+.announbox
+{
+  padding: 5%;
+  border: 1px solid #e0e0d1;
+  width: 100%;
+  border-radius: 8px;
+}
+.im
+{
+  float: left;
+  width: 30%;
+  padding: 2%;
+}
+.para
+{
+  float: left;
+  width: 60%;
+  padding: 2%;
+}
+.new{
+  text-decoration:none;
+  color:white;
+  background-color:red;
+  padding:2px;
+  border-radius:5px;
+}
+.courses_offr
+{
+  width: 100%;
+  float: left;
+  margin-top: 1%;
+}
+.courseimg
+{
+  width: 100%;
+  background-image: url("ww.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+  position: relative;
+  margin-top: 2%;
+}
+.coursehead
+{
+  margin-left: 10%;
+}
+.lcourse{
+  float: left;
+  width: 34%;
+
+  padding: 2%;
+  margin: 2%;
+  margin-left: 10%;
+}
+.rcourse{
+  float: left;
+  width: 34%;
+
+  padding: 2%;
+  margin: 2%;
+  background-color: white;
+}
+.log
+{
+  width: 20%;
+  height: auto;
+  float: left;
+}
+.dot{
+  height: 8px;
+  width: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.footer{
+  width: 100%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 0%;
+
+  background-color: #FAFAFA;
+}
+.footer_right
+{
+  float: left;
+  margin-left: 44%;
+  margin-right: 5%;
+
+  width: 30%;
+}
+.small
+{
+  float: left;
+  padding: 2%;
+  margin: 3%;
+}
+.faceimg
+{
+  float:left;
+  width: 10%;
+  padding: 5%;
+}
+.apx
+{
+  width: 20%;
+}
+.fa-twitter {
+  background: white;
+  color: black;
+  margin:1%;
+  padding: 1%;
+  width: 10%;
+}
+.fa-facebook {
+  background: #fff;
+  color: black;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}

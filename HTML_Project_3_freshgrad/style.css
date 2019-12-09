@@ -1,0 +1,187 @@
+body
+{
+  font-family:'ubuntu',sans-serif;
+  background-color: white;
+}
+.left
+{
+  width: 30%;
+  float: left;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+.right
+{
+  width: 45%;
+  height: 675px;
+  background-image: url("background.svg");
+  float: right;
+  background-repeat: no-repeat;
+  margin-left: 0%;
+}
+.login{
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 0%;
+  margin-top: 20%;
+  width: 100%;
+  float: left;
+  height: auto;
+}
+.inpt{
+  border-radius: 7px;
+  padding: 5px;
+  border: 1px solid #e0e0d1;
+  width: 70%;
+  height: 40px;
+}
+.icon
+{
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 11%;
+}
+.Forgot{
+  color: green;
+}
+
+.left_black
+{
+  width: 20%;
+  height: 787px;
+  padding: 1%;
+  margin: 0%;
+  float: left;
+  background-color: #262626;
+  color: white;
+}
+.right_white
+{
+  width: 75%;
+  padding: 1%;
+  margin: 0%;
+  float: left;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px
+}
+.menu:hover{
+  background-color: #70db70;
+  background-size: cover;
+  padding-left: 20%;
+  border-right: 3px solid #196619;
+  color: #196619;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.menu a:hover{
+  color: #196619;
+  text-decoration: none;
+  font-size: 20px
+  padding:1%;
+}
+.menu
+{
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 0%;
+}
+.icn{
+  width: 10%;
+  float: left;
+}
+.text
+{
+  float: left;
+  width: 60%;
+}
+.common
+{
+  width: 100%;
+
+  padding: 1%;
+
+}
+.bt
+{
+  padding: 10px;
+  border-radius: 20px;
+}
+.bt:hover{
+  background-color: #70db70;
+  color: white;
+}
+.sel
+{
+  width: 23%;
+  float: right;
+}
+.sel1
+{
+  padding: 10px;
+  background-color:  #70db70;
+  border-radius: 5px;
+}
+.small
+{
+  width: 25%;
+  border: 1px solid #e0e0d1;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 2%;
+  border-radius: 7px;
+}
+.small:hover
+{
+  background-color:  #70db70;
+}
+.search
+{
+    width: 25%;
+    float: left;
+    margin: 3%;
+}
+.serc
+{
+    float: left;
+    margin: 3%;
+    border-radius: 7px;
+    padding: 4px;;
+    height: 40px;
+}
+.entry
+{
+    margin: 3%;
+    width: 20%;
+    float: right;
+}
+table
+{
+  font-size: 14px;
+  border-radius: 10px;
+  height: 400px;
+  width: 90%;
+  border-collapse: collapse;
+}
+tr{
+  outline: thin solid #e0e0d1;
+}
+th{
+
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: left;
+}
+td{
+
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+}

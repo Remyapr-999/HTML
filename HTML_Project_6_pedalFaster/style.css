@@ -1,0 +1,119 @@
+body{
+background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.header
+{
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  background-image: url("bg-header.jpg");
+  background-size: cover;
+  top:0;
+  left: 0;
+  opacity: 0.6;
+
+}
+.logo
+{
+  margin-left: 17%;
+  padding: 2%;
+  float: left;
+}
+.menu
+{
+  width: 40%;
+  float: left;
+  padding: 2%;
+  margin-left: 20%;
+}
+.menuItem
+{
+  padding: 1%;
+  text-decoration:none;
+  color: gray;
+  margin: 2%;
+}
+.mainBody
+{
+  width: 80%;
+  height: 600px;
+  margin-top: 35px;
+  border-top: 1px solid white;
+}
+.leftTiangle
+{
+  width: 580px;
+  height: 450px;
+  margin-left: 17%;
+  background-image: url("header-triangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 12%;
+
+}
+.cycleTri
+{
+  margin-left: 7%;
+  margin-top: 11%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding-left:  7%;
+  padding-right: 7%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  position: relative;
+  float: left;
+}
+.heading
+{
+  float: left;
+  margin-left: 70%;
+  margin-top: -68%;
+  width: 50%;
+  color: white;
+}
+.rightContent
+{
+  color: white;
+  text-align: left;
+  float: left;
+  width: 20%;
+  margin-left: 60%;
+  margin-top: -23%;
+  padding: 10px;
+}
+.col-4
+{
+  width: 22%;
+  float: left;
+  color: white;
+  margin-left:  30px;
+  text-align: left;
+}
+.more{
+  width: 49%;
+  text-align: left;
+  color: white;
+  margin-right: 50%;
+}
+.footer{
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  background-image: url("bg-header.jpg");
+  background-size: cover;
+  top:0;
+  left: 0;
+  opacity: 0.6;
+  margin-top: 995px;
+  color: white;
+}
+.men
+{
+  width: 40%;
+  float: left;
+  padding: 2%;
+  margin-left: 25%;
+}

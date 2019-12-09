@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <center>
+        <div class="box">
+          <center><h1>Sign Page</h1></center>
+          <form action="#">
+          <input type="text" placeholder="User Name" required="required" id="id1" name="u" /><br><br>
+          <input type="password" placeholder="Password" required="required" id="id2" name="p" /><br><br>
+          <input type="submit" value="Submit" class="bt" id="submit" onclick="scriptFunction(u,p)">
+        </form>
+          <a href="#">Forgot Password</a>
+        </div>
+    </center>
+    <script>
+    function scriptFunction(u,p)
+    {
+      var uname = ["admin","ram","remya"];
+      var pass = ["admin","ram","remya"];
+      var i;
+      var flag=0;
+      var str1 = u.value;
+      var str2 = p.value;
+      for(i=0;i<=uname.length;i++)
+      {
+        if((str1==uname[i])&&(str2==pass[i]))
+        {
+          flag=1;
+          break;
+        }
+
+      }
+      if(flag==1)
+      {
+          window.alert("Login successfully");
+      }
+      else {
+        window.alert("Invalid login");
+      }
+    }
+    </script>
+  </body>
+</html>

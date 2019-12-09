@@ -1,0 +1,128 @@
+body
+{
+background-image:url("dark-wood.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: sans-serif;
+}
+.large_div
+{
+  width: 960px;
+  color: white;
+  background-color: white;
+  border: 3px solid black;
+  height: 788px;
+}
+.header
+{
+  width: 90%;
+  height: 20px;
+  background-image: url("header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+.menu
+{
+  color: white;
+  padding: 1%;
+  background-color: gray;
+  width: 98%;
+  float: left;
+  margin-left: 0%;
+
+}
+a{
+  text-decoration: none;
+  padding: 1%;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  float: left;
+}
+.l_left
+{
+  width: 64%;
+  border-right:  1px #e0e0d1 solid;
+  color: black;
+  float: left;
+}
+.large_left
+{
+  width: 100%;
+  color: black;
+  float: left;
+}
+
+.large_right
+{
+  width: 35%;
+
+  color: black;
+  float: left;
+}
+.row
+{
+  width: 100%;
+  margin: 1%;
+}
+.image
+{
+  width: 35%;
+  float: left;
+  padding: 1%;
+  margin: 0%;
+  border: 1px #e0e0d1 solid;
+}
+.content
+{
+  width: 60%;
+  float: left;
+  padding: 1%;
+  margin: 0%;
+  color: #666699;
+}
+h3
+{
+  color: #de6581;
+}
+figcaption
+{
+  color: #666699;
+  text-align: left;
+}
+.pink_content
+{
+  color: #de6581;
+  border-bottom: 1px #e0e0d1 solid;
+  padding: 1%;
+  margin: 1%;
+  text-align: left;
+  margin-left: 20%;
+}
+.contact
+{
+  padding: 0%;
+}
+.contact h2
+{
+  color:  #de6581;
+  text-align: left;
+  margin-left: 20%;
+}
+.contact p{
+  color: gray;
+  text-align: left;
+  margin-left: 20%;
+
+}
+.footer
+{
+  color: white;
+  padding: 0%;
+  background-color: gray;
+  width: 100%;
+  float: left;
+  margin-left: 0%;
+  text-align: left;
+}
